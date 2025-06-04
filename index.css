@@ -1,0 +1,328 @@
+h2 {
+  font-style: normal;
+  font-size: 18px;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  padding: 0px 0px 15px 0px;
+}
+
+p {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  display: flex;
+}
+
+.facebook, .instagram, .telegram {
+  width: 35px;
+  height: 35px;
+  color: white;
+}
+
+.vector_left, .vector_right {
+  width: 13px;
+  height: 23px;
+}
+
+.menu {
+  margin: 80px 0px 0px 50px;
+  height: 626px;
+  display: flex;
+  position: fixed;
+}
+.menu .view_menu {
+  border-radius: 100px;
+  background-color: white;
+  display: block;
+  padding: 32px 5px 0px 10px;
+}
+.menu .content_menu {
+  margin: 35px 0px 0px 0px;
+}
+.menu .cirqle, .menu .text_cirqle {
+  padding: 0px 0px 41px 0px;
+  display: flex;
+}
+.menu .cirqle span, .menu .text_cirqle span {
+  width: 34px;
+  height: 34px;
+  background-color: black;
+  border-radius: 100%;
+  display: block;
+}
+.menu .cirqle p, .menu .text_cirqle p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+  width: 91px;
+  padding: 9px 0px 9px 10px;
+}
+.menu .cirqle p a, .menu .text_cirqle p a {
+  color: white;
+  text-decoration: none;
+  opacity: 0;
+}
+.menu .cirqle .p1, .menu .text_cirqle .p1 {
+  padding: 9px 0px 1px 10px;
+}
+
+main {
+  margin-left: 220px;
+}
+
+.header {
+  margin: 30px 0px 0px 0px;
+}
+.header .header_text_contact {
+  display: flex;
+}
+.header .header_text {
+  padding: 0px 0px 5px 0px;
+  display: flex;
+}
+.header .header_text h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 96px;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #000000;
+  text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 2px 2px 0 white;
+  margin: 40px 10px 5px 0px;
+}
+.header .header_text .acorn {
+  margin: 110px 0px 0px 0px;
+  width: 24px;
+  height: 28px;
+  transform: scaleX(-1);
+}
+.header h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 96px;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+}
+.header .contacts {
+  display: flex;
+}
+.header .facebook, .header .instagram, .header .telegram {
+  background-color: white;
+  border-radius: 100%;
+  margin: 0px 15px 0px 0px;
+}
+.header .facebook .facebook_img, .header .instagram .facebook_img, .header .telegram .facebook_img {
+  width: 11px;
+  height: 25px;
+  padding: 4px 11px 15px 12px;
+}
+.header .facebook .instagram_img, .header .instagram .instagram_img, .header .telegram .instagram_img {
+  width: 21px;
+  height: 21px;
+  padding: 7px 7px 7px 7px;
+}
+.header .facebook .telegram_img, .header .instagram .telegram_img, .header .telegram .telegram_img {
+  width: 22px;
+  height: 24px;
+  padding: 5px 7px 6px 4px;
+}
+.header .NeoFauna {
+  font-style: normal;
+  font-size: 18px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  padding: 0px 0px 20px 90px;
+}
+.header .text_main {
+  margin-top: 30px;
+  display: flex;
+}
+.header .description1_text .description1 {
+  width: 275px;
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  color: white;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 0px 0px 30px 0px;
+}
+.header .description1_text img {
+  width: 69px;
+  height: 64px;
+}
+.header .mouse {
+  width: 504px;
+  height: 248px;
+  margin: -20px 100px 0px -100px;
+}
+.header .description2_text {
+  background-image: url(./foto/home/line1.png);
+  background-size: 223px;
+  background-repeat: no-repeat;
+  padding: 25px;
+}
+.header .description2_text p {
+  width: 269px;
+}
+.header .description2_text img {
+  width: 223px;
+  height: 169px;
+}
+.header .decoration {
+  margin-top: 20px;
+}
+.header .qr-code, .header .download, .header .internet {
+  padding: 0px 15px 0px 0px;
+}
+.header .qr-code {
+  width: 84px;
+  height: 84px;
+}
+.header .download {
+  width: 524px;
+  height: 84px;
+}
+.header .internet {
+  width: 83px;
+  height: 84px;
+}
+.header .line1 {
+  margin: 20px 0px 0px 0px;
+  width: 1100px;
+  height: 80px;
+}
+.header .mamoth {
+  width: 311px;
+  height: 267px;
+  margin: -900px 0px 0px 987px;
+}
+
+.main .aboutUs {
+  width: 482px;
+  height: 113px;
+  margin-top: 40px;
+}
+.main .text {
+  margin-top: 30px;
+}
+.main .text h2 {
+  margin-bottom: 15px;
+}
+.main .text .vector_left {
+  padding: 0px 10px 0px 0px;
+}
+.main .text .p_description1 {
+  margin: -20px 10px 0px 30px;
+}
+.main .text .vector_right {
+  margin: -200px 0px 0px 450px;
+}
+.main .text p {
+  width: 439px;
+  padding: 0px 0px 10px 0px;
+}
+.main .line {
+  width: 814px;
+  height: 235px;
+  margin: -45px 0px 0px -30px;
+}
+.main .antelope {
+  width: 219px;
+  height: 338px;
+  margin: -550px 0px 0px 290px;
+  position: absolute;
+}
+.main .acorn {
+  width: 297px;
+  height: 297px;
+  position: absolute;
+  margin: -350px 0px 0px -170px;
+}
+.main .bird {
+  width: 492px;
+  height: 279px;
+  position: absolute;
+  margin: -60px 0px 0px 0px;
+}
+
+.footer {
+  background-image: url(./foto/home/background_font.png);
+  background-size: 1200px;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  height: 800px;
+}
+.footer .header_text {
+  margin: 40px 0px 0px 0px;
+  padding: 200px 0px 0px 150px;
+}
+.footer .header_text h1 {
+  padding: 0px 0px 5px 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 96px;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+}
+.footer .header_text .h2 {
+  padding: 5px 0px 0px 336px;
+}
+.footer .header_text .h3 {
+  padding: 0px 5px 0px 560px;
+}
+.footer .p1 {
+  width: 296px;
+  border: 2px white;
+  position: absolute;
+  margin: -230px 0px 0px 150px;
+}
+.footer .p1 p {
+  width: 266px;
+  border: 2px solid white;
+}
+.footer .p2 {
+  width: 480px;
+  border: 2px white;
+  position: absolute;
+  margin: -110px 0px 0px 150px;
+}
+.footer .p2 p {
+  width: 450px;
+  border: 2px solid white;
+}
+.footer .p3 {
+  width: 732px;
+  border: 2px white;
+  position: absolute;
+  margin: 0px 0px 0px 150px;
+}
+.footer .p3 p {
+  width: 702px;
+  border: 2px solid white;
+}
+.footer .p1, .footer .p2, .footer .p3 {
+  background-color: black;
+  border: 2px white;
+}
+.footer .p1 p, .footer .p2 p, .footer .p3 p {
+  padding: 15px 15px 15px 15px;
+}/*# sourceMappingURL=index.css.map */

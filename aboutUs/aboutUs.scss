@@ -1,0 +1,257 @@
+body{
+    background-color: $black_color;
+    display: flex;
+}
+.facebook, .instagram, .telegram{
+    width: 35px;
+    height: 35px;
+    color: $color_white;
+}
+.vector_left, .vector_right{
+    width: 13px;
+    height: 23px;
+}
+.menu{
+    margin: 80px 0px 0px 50px;
+    height: 626px;
+    display: flex;
+    position: fixed;
+    .view_menu{
+        border-radius: 100px;
+        background-color: $color_white;
+        display: block;
+        padding: 32px 5px 0px 10px;
+    }
+    .content_menu{
+        margin: 35px 0px 0px 0px;
+    }
+    .cirqle, .text_cirqle {
+        padding: 0px 0px 41px 0px;
+        display: flex;
+        span{
+            width: 34px;
+            height: 34px;
+            background-color: $black_color;
+            border-radius: 100%;
+            display: block;
+        }
+        p{
+            @include menu;
+            width: 91px;
+            padding: 9px 0px 9px 10px;
+            a{
+                color: $color_white;
+                text-decoration: none;
+                opacity: 0;
+            }
+        }
+        .p1{
+            padding: 9px 0px 1px 10px;
+        }
+    } 
+}
+
+main{
+    margin-left: 220px;
+}
+.header{
+    margin: 30px 0px 0px 20px;
+    .header_text_contact{
+        display: flex;
+    }
+    .header_text{
+        padding: 0px 0px 5px 0px;
+        display: flex;
+        h1 {
+            @include headerFoll;
+            margin: 250px 0px 0px 350px;
+        }
+        .acorn {
+            margin: 310px 0px 0px 10px;
+            width: 24px;
+            height: 28px;
+            transform: scaleX(-1);
+        }
+    }
+    .line{
+        width: 769px;
+        height: 297px;
+        margin: -310px 0px 0px 61px;
+    }
+    .data_contacts{
+        margin: -400px 0px 0px 1100px;
+    }
+    .contacts{
+        display: flex;
+    }
+    .facebook, .instagram, .telegram{
+        background-color: $color_white;
+        border-radius: 100%;
+        margin: 0px 15px 0px 0px;
+        .facebook_img{
+            width: 11px;
+            height: 25px;
+            padding: 4px 11px 15px 12px;
+        }
+        .instagram_img{
+            width: 21px;
+            height: 21px;
+            padding: 7px 7px 7px 7px;
+        }
+        .telegram_img{
+            width: 22px;
+            height: 24px;
+            padding: 5px 7px 6px 4px;
+        }
+    }
+    .NeoFauna{
+        @include roboto_light;
+        padding: 0px 0px 20px 90px;
+    }
+
+    .option{
+        display: flex;
+    }
+    .arrow1{
+        width: 106px;
+        height: 73px;
+        margin: -70px 0px 0px 77px;
+    }
+    .p1{
+        display: flex;
+        .one{
+            width: 56px;
+            height: 113px;
+            margin: -70px 0px 0px 250px;
+            padding-right: 15px;
+        }
+        .p2{
+            width: 550px;
+            margin: -50px 0px 0px 0px;
+        }
+    }
+    .p3{
+        width: 616px;
+        margin: 15px 0px 0px 278px;
+    }
+    .arrow2{
+        width: 186px;
+        height: 453px;
+        margin: -160px 0px 0px 945px;
+    }
+    .foto, .foto1{
+        width: 189px;
+        height: 265px;
+    }
+    .decoration1, .decoration2{
+        width: 13px;
+        height: 23px;
+    }
+    .description{
+        margin: 0px 0px 0px 550px;
+        p{
+            padding-bottom: 15px;
+            width: 408px;
+        }
+    }
+    .foto1{
+        .decoration1{
+            margin: -80px 0px 0px 80px;
+            position: absolute;
+        }
+        .foto{
+            padding: 10px  0px  0px 20px;
+            margin: -80px 0px 0px 80px;
+        }
+        .decoration2{
+            margin: -80px 0px 0px 310px;
+        }
+    }
+    .foto2{
+        .decoration1{
+            margin: -350px 0px 0px 350px;
+            position: absolute;
+        }
+        .foto{
+            position: absolute;
+            padding: 10px  0px  0px 20px;
+            margin: -350px 0px 0px 360px;
+        }
+        .decoration2{
+            margin: -76px 0px 0px 586px;
+            position: absolute;
+        }
+    }
+    .line_mission{
+        width: 491px;
+        height: 300px;
+        margin: -300px 0px 0px 514px;
+    }
+}
+.main{
+    margin: 0px 0px 0px 119px;
+    padding-bottom: 10px;
+    .our_team{
+        width: 484px;
+        height: 120px;
+    }
+    .people{
+        padding: 15px;
+        border: 2px dashed $color_white;
+        width: 650px;
+        margin-left: 480px;
+        img{
+            width: 650px;
+            height: 370px;
+        }
+    }
+    .bee_acorn{
+        width: 208px;
+        height: 100px;
+        margin: -510px 0px 0px 700px;
+        position: absolute;
+    }
+    .text_decoration{
+        display: flex;
+    }
+    .line{
+        width: 316px;
+        height: 410px;
+        margin: -410px 0px 0px 0px;   
+    }
+    .text{
+        margin: -360px 0px 0px -275px;  
+        p{
+            width: 272px;
+        }
+    }
+    .block2{
+        margin-top: 20px;
+        .decoration{
+            margin: -116px 0px 0px 805px;
+        }
+    }
+    .people1{
+        padding: 15px;
+        border: 2px dashed $color_white;
+        width: 291px;
+        img{
+            height: 168px;
+        }
+    }
+    .line1{
+        width: 406px;
+        height: 146px;
+        margin: 203px 0px 0px 650px;
+    }
+    .description_text{
+        margin:-180px 0px 0px 672px;
+        h2{
+            padding-bottom: 30px;
+        }
+    }
+    .decoration{
+        width: 132px;
+        height: 146px;
+    }
+}

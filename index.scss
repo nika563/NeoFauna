@@ -1,0 +1,355 @@
+$black_color: black;
+$color_white: white;
+
+
+@mixin h1 { 
+    font-family: "Roboto", sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    text-transform: uppercase;
+};
+@mixin headerEmpty {
+    @include h1; 
+    font-weight: 800;
+    color: #000000;
+    text-shadow: 
+        -2px -2px 0 $color_white,  
+        2px -2px 0 $color_white,  
+        -2px  2px 0 $color_white,  
+        2px  2px 0 $color_white;
+};
+@mixin headerFoll {
+    @include h1; 
+    font-weight: 700;
+    color: $color_white;
+};
+@mixin roboto{
+    font-style: normal;
+    font-size: 18px;
+    color: $color_white;
+};
+@mixin roboto_light {
+    @include roboto; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+};
+@mixin header2 {
+    @include roboto; 
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+};
+@mixin description { 
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    color: $color_white;
+};
+@mixin description2{ 
+    @include description;
+    font-weight: 500;
+    font-size: 14px;
+};
+@mixin description3 { 
+    @include description;
+    font-weight: 400;
+    font-size: 12px;
+};
+@mixin menu {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    color: $color_white;
+    text-transform: uppercase;
+};
+
+
+h2{ 
+    @include header2; 
+    padding: 0px 0px 15px 0px;
+}
+p { @include description2; }
+
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: $black_color;
+    display: flex;
+}
+.facebook, .instagram, .telegram{
+    width: 35px;
+    height: 35px;
+    color: $color_white;
+}
+.vector_left, .vector_right{
+    width: 13px;
+    height: 23px;
+}
+.menu{
+    margin: 80px 0px 0px 50px;
+    height: 626px;
+    display: flex;
+    position: fixed;
+    .view_menu{
+        border-radius: 100px;
+        background-color: $color_white;
+        display: block;
+        padding: 32px 5px 0px 10px;
+    }
+    .content_menu{
+        margin: 35px 0px 0px 0px;
+    }
+    .cirqle, .text_cirqle {
+        padding: 0px 0px 41px 0px;
+        display: flex;
+        span{
+            width: 34px;
+            height: 34px;
+            background-color: $black_color;
+            border-radius: 100%;
+            display: block;
+        }
+        p{
+            @include menu;
+            width: 91px;
+            padding: 9px 0px 9px 10px;
+            a{
+                color: $color_white;
+                text-decoration: none;
+                opacity: 0;
+            }
+        }
+        .p1{
+            padding: 9px 0px 1px 10px;
+        }
+    }
+}
+
+main{
+    margin-left: 220px;
+}
+.header{
+    margin: 30px 0px 0px 0px;
+    .header_text_contact{
+        display: flex;
+    }
+    .header_text{
+        padding: 0px 0px 5px 0px;
+        display: flex;
+        h1 {
+            @include headerEmpty;
+            margin: 40px 10px 5px 0px;
+        }
+        .acorn {
+            margin: 110px 0px 0px 0px;
+            width: 24px;
+            height: 28px;
+            transform: scaleX(-1);
+        }
+    }
+    h1{
+        @include headerFoll; //MOUSE with MAMOTH
+    }
+    .contacts{
+        display: flex;
+    }
+    .facebook, .instagram, .telegram{
+        background-color: $color_white;
+        border-radius: 100%;
+        margin: 0px 15px 0px 0px;
+        .facebook_img{
+            width: 11px;
+            height: 25px;
+            padding: 4px 11px 15px 12px;
+        }
+        .instagram_img{
+            width: 21px;
+            height: 21px;
+            padding: 7px 7px 7px 7px;
+        }
+        .telegram_img{
+            width: 22px;
+            height: 24px;
+            padding: 5px 7px 6px 4px;
+        }
+    }
+    .NeoFauna{
+        @include roboto_light;
+        padding: 0px 0px 20px 90px;
+    }
+
+    .text_main{
+        margin-top: 30px;
+        display: flex;
+    }
+    .description1_text{
+        .description1{
+            width: 275px;
+            @include description3;
+            padding: 0px 0px 30px 0px;
+        }
+        img{
+            width: 69px;
+            height: 64px;
+        }
+    }
+    .mouse{
+        width: 504px;
+        height: 248px;
+        margin: -20px 100px 0px -100px;
+    }
+    .description2_text{
+        background-image: url(./foto/home/line1.png);
+        background-size: 223px;
+        background-repeat: no-repeat;
+        padding: 25px;
+        p{
+            width: 269px;
+        }
+        img{
+            width: 223px;
+            height: 169px;
+        }
+    }
+    .decoration{
+        margin-top: 20px;
+    }
+    .qr-code, .download, .internet{
+        padding: 0px 15px 0px 0px;
+    }
+    .qr-code{
+        width: 84px;
+        height: 84px;
+    }
+    .download{
+        width: 524px;
+        height: 84px;
+    }
+    .internet{
+        width: 83px;
+        height: 84px;
+    }
+    .line1{
+        margin: 20px 0px 0px 0px;
+        width: 1100px;
+        height: 80px;
+    }
+    .mamoth{
+        width: 311px;
+        height: 267px;
+        margin: -900px 0px 0px 987px;
+    }
+}
+
+.main{
+    .aboutUs{
+        width: 482px;
+        height: 113px;
+        margin-top: 40px;
+    }
+    .text{
+        margin-top: 30px;
+        h2{
+            margin-bottom: 15px;
+        }
+        .vector_left{
+            padding: 0px 10px 0px 0px;
+        }
+        .p_description1{
+            margin: -20px 10px 0px 30px;
+        }
+        .vector_right{
+            margin: -200px 0px 0px 450px;
+        }
+        p {
+            width: 439px;
+            padding: 0px 0px 10px 0px;
+        }
+    }
+    .line{
+        width: 814px;
+        height: 235px;
+        margin: -45px 0px 0px -30px;
+    }
+    .antelope{
+        width: 219px;
+        height: 338px;
+        margin: -550px 0px 0px 290px;
+        position: absolute;
+    }
+    .acorn{
+        width: 297px;
+        height: 297px;
+        position: absolute;
+        margin: -350px 0px 0px -170px;
+    }
+    .bird{
+        width: 492px;
+        height: 279px;
+        position: absolute;
+        margin: -60px 0px 0px 0px;
+    }
+}
+
+.footer{
+    background-image: url(./foto/home/background_font.png);
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    height: 800px;
+    .header_text{
+        margin: 40px 0px 0px 0px;
+        padding: 200px 0px 0px 150px;
+        h1{
+            padding: 0px 0px 5px 0px;
+            @include headerFoll;
+        }
+        .h2{
+            padding: 5px 0px 0px 336px;
+        }
+        .h3{
+            padding: 0px 5px 0px 560px;
+        }
+    }
+    .p1{
+        width: 296px;
+        border: 2px $color_white;
+        position: absolute;
+        margin: -230px 0px 0px 150px;
+        p{
+            width: 266px;
+            border: 2px solid $color_white;
+        }
+    }
+    .p2{
+        width: 480px;
+        border: 2px $color_white;
+        position: absolute;
+        margin: -110px 0px 0px 150px;
+        p{
+            width: 450px;
+            border: 2px solid $color_white;
+        }
+    }
+    .p3{
+        width: 732px;
+        border: 2px $color_white;
+        position: absolute;
+        margin: 0px 0px 0px 150px;
+        p{
+            width: 702px;
+            border: 2px solid $color_white;
+        }
+    }
+
+    .p1, .p2, .p3{
+        background-color: $black_color;
+        border: 2px $color_white;
+        p{
+            padding: 15px 15px 15px 15px;
+        }
+    }
+}

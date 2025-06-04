@@ -1,0 +1,150 @@
+body{
+    background-color: $black_color;
+    display: flex;
+}
+.facebook, .instagram, .telegram{
+    width: 35px;
+    height: 35px;
+    color: $color_white;
+}
+.vector_left, .vector_right{
+    width: 13px;
+    height: 23px;
+}
+.menu{
+    margin: 80px 0px 0px 50px;
+    height: 626px;
+    display: flex;
+    position: fixed;
+    .view_menu{
+        border-radius: 100px;
+        background-color: $color_white;
+        display: block;
+        padding: 32px 5px 0px 10px;
+    }
+    .content_menu{
+        margin: 35px 0px 0px 0px;
+    }
+    .cirqle, .text_cirqle {
+        padding: 0px 0px 41px 0px;
+        display: flex;
+        span{
+            width: 34px;
+            height: 34px;
+            background-color: $black_color;
+            border-radius: 100%;
+            display: block;
+        }
+        p{
+            @include menu;
+            width: 91px;
+            padding: 9px 0px 9px 10px;
+            a{
+                color: $color_white;
+                text-decoration: none;
+                opacity: 0;
+            }
+        }
+        .p1{
+            padding: 9px 0px 1px 10px;
+        }
+    }
+}
+
+
+header{
+    margin: 30px 0px 0px 220px;
+    .header{
+        display: flex;
+    }
+    .named_catalog{
+        padding: 0px 0px 5px 0px;
+        display: flex;
+        h1 {
+            @include headerFoll;
+            margin: 20px 0px 0px 0px;
+        }
+        .h2{
+            margin: -10px 0px 0px 0px;
+        }
+        .acorn {
+            margin: 190px 0px 0px -280px;
+            width: 24px;
+            height: 28px;
+            transform: scaleX(-1);
+        }
+    }
+    .data_contacts{
+        margin: 30px 0px 0px 700px;
+    }
+    .contacts{
+        display: flex;
+    }
+    .facebook, .instagram, .telegram{
+        background-color: $color_white;
+        border-radius: 100%;
+        margin: 0px 15px 0px 0px;
+        .facebook_img{
+            width: 11px;
+            height: 25px;
+            padding: 4px 11px 15px 12px;
+        }
+        .instagram_img{
+            width: 21px;
+            height: 21px;
+            padding: 7px 7px 7px 7px;
+        }
+        .telegram_img{
+            width: 22px;
+            height: 24px;
+            padding: 5px 7px 6px 4px;
+        }
+    }
+    .NeoFauna{
+        @include roboto_light;
+        padding: 0px 0px 20px 90px;
+    }
+
+
+
+    
+    .carte{
+        margin-top: 30px;
+        img{
+            width: 348px;
+            height: 207px;
+        }
+    }
+    .carefully{
+        margin-top: 20px;
+        p{
+            width: 326px;
+            margin-top: 15px;
+        }
+    }
+    .header_carefully{
+        display: flex;
+        img{
+            width: 23px;
+            height: 27px;
+            margin-right: 10px;
+        }
+        h2{
+            padding: 5px;
+        }
+    }
+    .text{
+        h1{
+            @include headerEmpty;
+        }
+        .h1{
+            margin: -278px 0px 0px 480px;
+        }
+        .h2{
+            margin: 15px 0px 0px 550px;
+        }
+        .h3{
+            margin: 35px 0px 0px 400px;
+        }
+    }
+}

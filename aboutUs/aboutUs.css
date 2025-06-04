@@ -1,0 +1,294 @@
+h2 {
+  font-style: normal;
+  font-size: 18px;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  padding: 0px 0px 15px 0px;
+}
+
+p {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  display: flex;
+}
+
+.facebook, .instagram, .telegram {
+  width: 35px;
+  height: 35px;
+  color: white;
+}
+
+.vector_left, .vector_right {
+  width: 13px;
+  height: 23px;
+}
+
+.menu {
+  margin: 80px 0px 0px 50px;
+  height: 626px;
+  display: flex;
+  position: fixed;
+}
+.menu .view_menu {
+  border-radius: 100px;
+  background-color: white;
+  display: block;
+  padding: 32px 5px 0px 10px;
+}
+.menu .content_menu {
+  margin: 35px 0px 0px 0px;
+}
+.menu .cirqle, .menu .text_cirqle {
+  padding: 0px 0px 41px 0px;
+  display: flex;
+}
+.menu .cirqle span, .menu .text_cirqle span {
+  width: 34px;
+  height: 34px;
+  background-color: black;
+  border-radius: 100%;
+  display: block;
+}
+.menu .cirqle p, .menu .text_cirqle p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+  width: 91px;
+  padding: 9px 0px 9px 10px;
+}
+.menu .cirqle p a, .menu .text_cirqle p a {
+  color: white;
+  text-decoration: none;
+  opacity: 0;
+}
+.menu .cirqle .p1, .menu .text_cirqle .p1 {
+  padding: 9px 0px 1px 10px;
+}
+
+main {
+  margin-left: 220px;
+}
+
+.header {
+  margin: 30px 0px 0px 20px;
+}
+.header .header_text_contact {
+  display: flex;
+}
+.header .header_text {
+  padding: 0px 0px 5px 0px;
+  display: flex;
+}
+.header .header_text h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 96px;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+  margin: 250px 0px 0px 350px;
+}
+.header .header_text .acorn {
+  margin: 310px 0px 0px 10px;
+  width: 24px;
+  height: 28px;
+  transform: scaleX(-1);
+}
+.header .line {
+  width: 769px;
+  height: 297px;
+  margin: -310px 0px 0px 61px;
+}
+.header .data_contacts {
+  margin: -400px 0px 0px 1100px;
+}
+.header .contacts {
+  display: flex;
+}
+.header .facebook, .header .instagram, .header .telegram {
+  background-color: white;
+  border-radius: 100%;
+  margin: 0px 15px 0px 0px;
+}
+.header .facebook .facebook_img, .header .instagram .facebook_img, .header .telegram .facebook_img {
+  width: 11px;
+  height: 25px;
+  padding: 4px 11px 15px 12px;
+}
+.header .facebook .instagram_img, .header .instagram .instagram_img, .header .telegram .instagram_img {
+  width: 21px;
+  height: 21px;
+  padding: 7px 7px 7px 7px;
+}
+.header .facebook .telegram_img, .header .instagram .telegram_img, .header .telegram .telegram_img {
+  width: 22px;
+  height: 24px;
+  padding: 5px 7px 6px 4px;
+}
+.header .NeoFauna {
+  font-style: normal;
+  font-size: 18px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  padding: 0px 0px 20px 90px;
+}
+.header .option {
+  display: flex;
+}
+.header .arrow1 {
+  width: 106px;
+  height: 73px;
+  margin: -70px 0px 0px 77px;
+}
+.header .p1 {
+  display: flex;
+}
+.header .p1 .one {
+  width: 56px;
+  height: 113px;
+  margin: -70px 0px 0px 250px;
+  padding-right: 15px;
+}
+.header .p1 .p2 {
+  width: 550px;
+  margin: -50px 0px 0px 0px;
+}
+.header .p3 {
+  width: 616px;
+  margin: 15px 0px 0px 278px;
+}
+.header .arrow2 {
+  width: 186px;
+  height: 453px;
+  margin: -160px 0px 0px 945px;
+}
+.header .foto, .header .foto1 {
+  width: 189px;
+  height: 265px;
+}
+.header .decoration1, .header .decoration2 {
+  width: 13px;
+  height: 23px;
+}
+.header .description {
+  margin: 0px 0px 0px 550px;
+}
+.header .description p {
+  padding-bottom: 15px;
+  width: 408px;
+}
+.header .foto1 .decoration1 {
+  margin: -80px 0px 0px 80px;
+  position: absolute;
+}
+.header .foto1 .foto {
+  padding: 10px 0px 0px 20px;
+  margin: -80px 0px 0px 80px;
+}
+.header .foto1 .decoration2 {
+  margin: -80px 0px 0px 310px;
+}
+.header .foto2 .decoration1 {
+  margin: -350px 0px 0px 350px;
+  position: absolute;
+}
+.header .foto2 .foto {
+  position: absolute;
+  padding: 10px 0px 0px 20px;
+  margin: -350px 0px 0px 360px;
+}
+.header .foto2 .decoration2 {
+  margin: -76px 0px 0px 586px;
+  position: absolute;
+}
+.header .line_mission {
+  width: 491px;
+  height: 300px;
+  margin: -300px 0px 0px 514px;
+}
+
+.main {
+  margin: 0px 0px 0px 119px;
+  padding-bottom: 10px;
+}
+.main .our_team {
+  width: 484px;
+  height: 120px;
+}
+.main .people {
+  padding: 15px;
+  border: 2px dashed white;
+  width: 650px;
+  margin-left: 480px;
+}
+.main .people img {
+  width: 650px;
+  height: 370px;
+}
+.main .bee_acorn {
+  width: 208px;
+  height: 100px;
+  margin: -510px 0px 0px 700px;
+  position: absolute;
+}
+.main .text_decoration {
+  display: flex;
+}
+.main .line {
+  width: 316px;
+  height: 410px;
+  margin: -410px 0px 0px 0px;
+}
+.main .text {
+  margin: -360px 0px 0px -275px;
+}
+.main .text p {
+  width: 272px;
+}
+.main .block2 {
+  margin-top: 20px;
+}
+.main .block2 .decoration {
+  margin: -116px 0px 0px 805px;
+}
+.main .people1 {
+  padding: 15px;
+  border: 2px dashed white;
+  width: 291px;
+}
+.main .people1 img {
+  height: 168px;
+}
+.main .line1 {
+  width: 406px;
+  height: 146px;
+  margin: 203px 0px 0px 650px;
+}
+.main .description_text {
+  margin: -180px 0px 0px 672px;
+}
+.main .description_text h2 {
+  padding-bottom: 30px;
+}
+.main .decoration {
+  width: 132px;
+  height: 146px;
+}/*# sourceMappingURL=aboutUs.css.map */

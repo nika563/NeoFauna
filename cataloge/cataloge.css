@@ -1,0 +1,243 @@
+h2 {
+  font-style: normal;
+  font-size: 18px;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  padding: 0px 0px 15px 0px;
+}
+
+p, label {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  display: flex;
+}
+
+.facebook, .instagram, .telegram {
+  width: 35px;
+  height: 35px;
+  color: white;
+}
+
+.vector_left, .vector_right {
+  width: 13px;
+  height: 23px;
+}
+
+.menu {
+  margin: 80px 0px 0px 50px;
+  height: 626px;
+  display: flex;
+  position: fixed;
+}
+.menu .view_menu {
+  border-radius: 100px;
+  background-color: white;
+  display: block;
+  padding: 32px 5px 0px 10px;
+}
+.menu .content_menu {
+  margin: 35px 0px 0px 0px;
+}
+.menu .cirqle, .menu .text_cirqle {
+  padding: 0px 0px 41px 0px;
+  display: flex;
+}
+.menu .cirqle span, .menu .text_cirqle span {
+  width: 34px;
+  height: 34px;
+  background-color: black;
+  border-radius: 100%;
+  display: block;
+}
+.menu .cirqle p, .menu .text_cirqle p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+  width: 91px;
+  padding: 9px 0px 9px 10px;
+}
+.menu .cirqle p a, .menu .text_cirqle p a {
+  color: white;
+  text-decoration: none;
+  opacity: 0;
+}
+.menu .cirqle .p1, .menu .text_cirqle .p1 {
+  padding: 9px 0px 1px 10px;
+}
+
+header {
+  margin: 30px 0px 0px 220px;
+}
+header .header {
+  display: flex;
+}
+header .named_catalog {
+  padding: 0px 0px 5px 0px;
+  display: flex;
+}
+header .named_catalog h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 96px;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+  margin: 20px 0px 0px 0px;
+}
+header .named_catalog .acorn {
+  margin: 90px 0px 0px 10px;
+  width: 24px;
+  height: 28px;
+  transform: scaleX(-1);
+}
+header .data_contacts {
+  margin: 30px 0px 0px 650px;
+}
+header .contacts {
+  display: flex;
+}
+header .facebook, header .instagram, header .telegram {
+  background-color: white;
+  border-radius: 100%;
+  margin: 0px 15px 0px 0px;
+}
+header .facebook .facebook_img, header .instagram .facebook_img, header .telegram .facebook_img {
+  width: 11px;
+  height: 25px;
+  padding: 4px 11px 15px 12px;
+}
+header .facebook .instagram_img, header .instagram .instagram_img, header .telegram .instagram_img {
+  width: 21px;
+  height: 21px;
+  padding: 7px 7px 7px 7px;
+}
+header .facebook .telegram_img, header .instagram .telegram_img, header .telegram .telegram_img {
+  width: 22px;
+  height: 24px;
+  padding: 5px 7px 6px 4px;
+}
+header .NeoFauna {
+  font-style: normal;
+  font-size: 18px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  padding: 0px 0px 20px 90px;
+}
+header .main {
+  display: flex;
+}
+header .filter {
+  background-color: black;
+  border: 1px solid white;
+  width: 209px;
+  height: 550px;
+  padding: 30px 0px 0px 25px;
+  margin: 0px 0px 0px 250px;
+}
+header .find {
+  width: 180px;
+  height: 39px;
+  background-color: black;
+  border: 1px solid white;
+  margin-bottom: 25px;
+}
+header .find p {
+  padding: 10px 60px 10px 60px;
+}
+header .dropdown {
+  display: flex;
+  margin-top: 25px;
+}
+header .dropdown .arrow {
+  width: 10px;
+  height: 5px;
+  margin: 10px;
+}
+header .checkbox {
+  padding-bottom: 10px;
+}
+header .content1, header .content2 {
+  display: flex;
+  height: 320px;
+}
+header .line {
+  width: 251px;
+  height: 281px;
+}
+header .bird {
+  width: 195px;
+  height: 225px;
+}
+header .hesh-teg {
+  display: flex;
+  margin-left: 155px;
+}
+header .teg {
+  background-color: black;
+  border: 1px solid white;
+  width: 70px;
+  height: 25px;
+  margin-right: 10px;
+}
+header .teg p {
+  padding: 5px 10px 5px 10px;
+}
+header .name {
+  display: flex;
+}
+header .name h2 {
+  padding-right: 10px;
+}
+header .name p {
+  padding-top: 3px;
+}
+header .content1 .bird {
+  margin: 31px 0px 0px -225px;
+  position: absolute;
+}
+header .content1 .trash {
+  margin: 269px 0px 0px -216px;
+  width: 75px;
+  height: 50px;
+}
+header .content1 .description {
+  display: flex;
+  margin: 61px 0px 0px -180px;
+}
+header .content1 .description .description1, header .content1 .description .description2 {
+  width: 240px;
+}
+header .content2 .bird {
+  margin: 31px 0px 0px -225px;
+  position: absolute;
+}
+header .content2 .trash {
+  margin: 269px 0px 0px -216px;
+  width: 75px;
+  height: 50px;
+}
+header .content2 .description {
+  display: flex;
+  margin: 61px 0px 0px -180px;
+}
+header .content2 .description .description1, header .content2 .description .description2 {
+  width: 240px;
+}/*# sourceMappingURL=cataloge.css.map */

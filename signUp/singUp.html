@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeoFauna</title>
+    <!--ROBOTO, NOTO SANS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../general.css">
+    <link rel="stylesheet" href="singUp.css">
+    <link rel="stylesheet" href="../animation.css">
+</head>
+<body>
+    <nav class="menu">
+        <span class="view_menu">
+            <div class="cirqle">
+                <span></span>
+            </div>
+            <div class="cirqle">
+                <span></span>
+            </div>
+            <div class="cirqle">
+                <span></span>
+            </div>
+            <div class="cirqle">
+                <span></span>
+            </div>
+            <div class="cirqle">
+                <span></span>
+            </div>
+            <div class="cirqle">
+                <span></span>
+            </div>
+            <div class="cirqle">
+                <span></span>
+            </div>
+            <div class="cirqle">
+                <span></span>
+            </div>
+        </span>
+        <div class="content_menu">
+            <div class="text_cirqle">
+                <p><a href="../index.html" class="text-change">головна</a></p>
+            </div>
+            <div class="text_cirqle">
+                <p><a href="./aboutUs/aboutUs.html" class="text-change">Про нас</a></p>
+            </div>
+            <div class="text_cirqle">
+                <p><a href="../cataloge/cataloge.html" class="text-change">каталог</a></p>
+            </div>
+            <div class="text_cirqle">
+                <p><a href="../trash/trash.html" class="text-change">кошик</a></p>
+            </div>
+            <div class="text_cirqle">
+                <p class="p1"><a href="../purchase_goods/purchase_goods.html" class="text-change">оформлення товару</a></p>
+            </div>
+            <div class="text_cirqle">
+                <p class="p1"><a href="../contact/contact.html" class="text-change">контактна інформація</a></p>
+            </div>
+            <div class="text_cirqle">
+                <p><a href="../signUp/singIn.html" class="text-change">вхід</a></p>
+            </div>
+            <div class="text_cirqle">
+                <p><a href="../signUp/singUp.html" class="text-change">реєстрація</a></p>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="header">
+            <div class="named_catalog">
+                <h1 class="h1 element-animation">РЕЄСТРАЦІЯ</h1>
+                <h1 class="h2 element-animation">/</h1>
+                <h1 class="h3 element-animation">ВХІД</h1>
+            </div>
+            <div class="data_contacts">
+                <p class="NeoFauna element-animation">NeoFauna</p>
+                <div class="contacts">
+                    <div class="facebook element-animation">
+                        <img class="facebook_img" src="../foto/all_contact/foto_fc.png">
+                    </div>
+                    <div class="instagram element-animation">
+                        <img class="instagram_img" src="../foto/all_contact/foto_insta.png">
+                    </div>
+                    <div class="telegram element-animation">
+                        <img class="telegram_img" src="../foto/all_contact/foto_tg.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="header_input">
+                <div class="input1">
+                    <div class="input element-animation">
+                        <h2>Iм'я та прізвище</h2>
+                        <input type="text" name="name" class="regName">
+                    </div>
+                    <div class="input element-animation">
+                        <h2>Пошта або інший спосіб зв'язку</h2>
+                        <input type="email" name="email" class="email">
+                    </div>
+                    <div class="input element-animation">
+                        <h2>Номер телефону</h2>
+                        <input type="tel" name="phone" class="phone">
+                    </div>
+                </div>
+                <div class="input2 element-animation">
+                    <div class="input">
+                        <h2>Придумайте пароль</h2>
+                        <input type="password" name="password" class="password">
+                    </div>
+                    <div class="input element-animation">
+                        <h2>Повторіть пароль</h2>
+                        <input type="password" name="password" class="repPassword" type="password">
+                    </div>
+                    <div class="input element-animation">
+                        <h2>Країна</h2>
+                        <input type="text" name="country" class="country">
+                    </div>
+                </div>
+            </div>
+            <div class="either">
+                <p class="element-animation">або</p>
+                <div class="cirqle_cite">
+                    <div class="cirqle element-animation">
+                        <img class="instagram_img" alt="instagram" src="../foto/all_contact/foto_insta.png">
+                    </div>
+                    <div class="cirqle element-animation">
+                        <img class="telegram_img" alt="telegram" src="../foto/all_contact/foto_tg.png">
+                    </div>
+                    <div class="cirqle element-animation">
+                        <img class="facebook_img" alt="facebook" src="../foto/all_contact/foto_fc.png">
+                    </div>
+                </div>
+            </div>
+            <button class="element-animation"><p>зареєструватися</p></button>
+            <div class="error"></div>
+        </div>
+        <img class="line element-animation" src="../foto/sing_in_up/decoration.png">
+    </header>
+    <script src="../index.js"></script>
+    <script src="singUp.js"></script>
+    <script src="../checkData.js"></script>
+</body>
+</html>

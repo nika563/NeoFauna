@@ -1,0 +1,190 @@
+body{
+    background-color: $black_color;
+    display: flex;
+}
+.facebook, .instagram, .telegram{
+    width: 35px;
+    height: 35px;
+    color: $color_white;
+}
+.vector_left, .vector_right{
+    width: 13px;
+    height: 23px;
+}
+.menu{
+    margin: 80px 0px 0px 50px;
+    height: 626px;
+    display: flex;
+    position: fixed;
+    .view_menu{
+        border-radius: 100px;
+        background-color: $color_white;
+        display: block;
+        padding: 32px 5px 0px 10px;
+    }
+    .content_menu{
+        margin: 35px 0px 0px 0px;
+    }
+    .cirqle, .text_cirqle {
+        padding: 0px 0px 41px 0px;
+        display: flex;
+        span{
+            width: 34px;
+            height: 34px;
+            background-color: $black_color;
+            border-radius: 100%;
+            display: block;
+        }
+        p{
+            @include menu;
+            width: 91px;
+            padding: 9px 0px 9px 10px;
+            a{
+                color: $color_white;
+                text-decoration: none;
+                opacity: 0;
+            }
+        }
+        .p1{
+            padding: 9px 0px 1px 10px;
+        }
+    }
+}
+
+
+header{
+    margin: 30px 0px 0px 220px;
+    .header{
+        display: flex;
+        margin-left: 30px;
+    }
+    .named_catalog{
+        padding: 0px 0px 5px 0px;
+        display: flex;
+        h1 {
+            @include headerFoll;
+            margin: 20px 0px 0px 0px;
+        }
+        .h2{
+            margin: -10px 0px 0px 0px;
+        }
+        .acorn {
+            margin: 190px 0px 0px 10px;
+            width: 24px;
+            height: 28px;
+            transform: scaleX(-1);
+        }
+    }
+    .data_contacts{
+        margin: 30px 0px 0px 200px;
+    }
+    .contacts{
+        display: flex;
+    }
+    .facebook, .instagram, .telegram{
+        background-color: $color_white;
+        border-radius: 100%;
+        margin: 0px 15px 0px 0px;
+    }
+    .facebook_img{
+        width: 11px;
+        height: 25px;
+        padding: 4px 11px 15px 12px;
+    }
+    .instagram_img{
+        width: 21px;
+        height: 21px;
+        padding: 7px 7px 7px 7px;
+    }
+    .telegram_img{
+        width: 22px;
+        height: 24px;
+        padding: 5px 7px 6px 4px;
+    }
+    .NeoFauna{
+        @include roboto_light;
+        padding: 0px 0px 20px 90px;
+    }
+
+
+
+    .named_catalog{
+        .h2{
+            margin: 88px 0px 0px 20px;
+        }
+        .h3{
+            margin:118px 0px 0px 20px;
+        }
+    }
+    .header_input{
+        display: flex;
+        margin: 10px 0px 0px 300px;
+    }
+    .input{
+        margin-top: 20px;
+    }
+    .input1{
+        margin-right: 30px;
+    }
+    input{
+        margin-top: 10px;
+        border: 2px solid $color_white;
+        background-color: $black_color;
+        padding: 5px;
+        color: $color_white;
+    }
+    .line{
+        position: absolute;
+        margin: -550px 0px 0px 0px;
+        width: 963px;
+        height: 585px;
+        z-index: -1;
+    }
+    .either{
+        margin: 20px 0px 0px 450px;
+        p{
+            padding: 0px 0px 20px 80px;
+        }
+    }
+    .cirqle_cite{
+        display: flex;
+    }
+    .cirqle{
+        width: 40px;
+        height: 40px;
+        background-color: $color_white;
+        border-radius: 100%;
+        margin-left: 15px;
+        .instagram_img{
+            padding: 10px;
+        }
+        .telegram_img{
+            padding: 8px 7px 6px 8px;
+        } 
+        .facebook_img{
+            padding: 6px 11px 15px 14px;
+        }
+    }
+    button{
+        border: 2px solid $color_white;
+        background-color: $black_color;
+        margin: 20px 0px 0px 468px;
+        cursor: pointer;
+        p{
+            padding: 15px;
+        }
+    }
+    .error{
+        position: fixed;
+        display: flex;
+        margin-top: -500px;
+        flex-direction: column;
+        gap: 10px;
+        right: 0;  
+        span{
+            background-color: rgb(197, 19, 19);
+            padding: 10px 8px;
+            transition: all 1.5s;
+        }
+    }
+}
